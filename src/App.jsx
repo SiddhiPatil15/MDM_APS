@@ -13,7 +13,7 @@ function AppRoutes() {
   const { currentUser } = useAppContext();
   
   return (
-    <Router>
+    <Router basename="/MDM_APS">
       <Navbar />
       <div className="page-wrapper">
         <Routes>
